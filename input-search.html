@@ -1,0 +1,27 @@
+<!--
+  <input type="search" />
+  -para campos de busca
+  -È igual ao compo do tipo 'text' mas podera ser um 
+  pouco diferente dependendo do user agent
+
+  *atributos
+  -list / <d0atalist>
+    -pattern
+    -aria-label
+
+--> 
+<datalist id="searchterms">
+  <option> mac </option>
+  <option> win </option>
+  <option> linux </option>
+</datalist>
+<form action="">
+  <label for="">pesquisa pelo ID</label>
+  <input type="search" name="q" list="searchterms">
+  
+  
+  <button>pesqusar</button>
+</form>
+
+
+
